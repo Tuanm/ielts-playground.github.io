@@ -1,0 +1,22 @@
+{
+    "build": {
+        "context": ".",
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eamodio.gitlens",
+                "esbenp.prettier-vscode",
+                "Nuxtr.nuxt-vscode-extentions",
+                "shardulm94.trailing-spaces",
+                "VisualStudioExptTeam.vscodeintellicode"
+            ],
+            "settings": {
+                "[typescript]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode"
+                }
+            }
+        }
+    }
+}
